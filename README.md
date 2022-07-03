@@ -22,7 +22,7 @@ That's when you can drop a `.uf2` firmware file, whether updated device firmware
 the [nuke firmware](https://cdn-learn.adafruit.com/assets/assets/000/101/659/original/flash_nuke.uf2?1618945856), or the [MacroPad CircuitPy firmware](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython).
 
 After CircuitPy firmware is installed, the removable drive should show up as `CIRCUITPY`.
-Then copy the files inside the `dist/` folder (but not the dist folder itself) to the device.
+Then copy the files inside the `device/` folder (but not the dist folder itself) to the device.
 The `code.py` file should sit in the root of the `CIRCUITPY` drive next to a `libs/` dir.
 
 ## Usage
